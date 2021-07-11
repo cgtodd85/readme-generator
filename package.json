@@ -1,0 +1,19 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "Generates a Readme doc for your project on github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgtodd85/readme-generator.git"
+  },
+  "author": "Connor Todd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cgtodd85/readme-generator/issues"
+  },
+  "homepage": "https://github.com/cgtodd85/readme-generator#readme"
+}
