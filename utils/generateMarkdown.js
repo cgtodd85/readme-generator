@@ -23,33 +23,34 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [Contributing](#contributing)
   - [Tests](#tests)
-  - [Future Development](#Development)
+  - [Development](#Development)
   - [Github Info](#github)
+  - [Contact] (#contact)
   - [License](#license)
 
   ## Installation
-  ${data.}
+  ${data.installation}
 
-  ## 
-  ${data.}
+  ## Usage
+  ${data.usage}
   
-  ## 
-  ${data.}
+  ## Contributing
+  ${data.contributing}
 
-  ## 
-  ${data.}
+  ## Tests
+  ${data.test}
 
-  ## 
-  ${data.}
+  ## Development
+  ${data.dev}
 
-  ## 
-  ${data.}
+  ## Github Info
+  ${data.github}
 
-  ## 
-  ${data.}
+  ## Contact
+  ${data.contact}
 
-  ## 
-  ${data.}
+  ## License
+  ${data.license}
 `;
 }
 
