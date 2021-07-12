@@ -1,5 +1,7 @@
 # README Generator
 
+![README generator walkthrough gif](./assets/README-gen-walkthrough.gif)
+
 ## Description
 
 I wanted to create a simple formula for creating a professional README doc. By running this app and entering info at the prompts you will have a professional README of your very own.
