@@ -1,8 +1,8 @@
-# gen read me
+# d
 
 
   ## Description
-  generates a readme
+  c
 
   ## Table of Contents
 
@@ -12,30 +12,30 @@
   - [Tests](#tests)
   - [Development](#Development)
   - [Github Info](#github)
-  - [Contact] (#contact)
+  - [Contact](#contact)
   - [License](#license)
 
   ## Installation
-  run in terminal using node
+  d
 
   ## Usage
-  see above
+  c
   
   ## Contributing
-  just me
+  d
 
   ## Tests
   undefined
 
   ## Development
-  add some features
+  d
 
   ## Github Info
-  cgtodd85
+  g
 
   ## Contact
-  This project was created by Connor.
-  Please contact me at cgtodd85@gmail.com with any questions.
+  This project was created by c.
+  Please contact me at g with any questions.
 
   ## License
-  MIT License
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
