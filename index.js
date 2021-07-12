@@ -27,27 +27,42 @@ inquirer
     {
       type: "input",
       name: "contributing",
-      message: "Please enter additional ",
+      message:
+        "Please enter any contributors to this project and their roles if applicable: ",
     },
     {
       type: "input",
-      name: "",
-      message: "",
+      name: "tests",
+      message: "Please enter any test instructions: ",
     },
     {
       type: "input",
-      name: "",
-      message: "",
+      name: "dev",
+      message: "Please enter any instructions for future development: ",
     },
     {
       type: "input",
-      name: "",
-      message: "",
+      name: "github",
+      message: "Please enter github username: ",
     },
     {
       type: "input",
-      name: "",
-      message: "",
+      name: "email",
+      message: "Please enter email address: ",
+    },
+    {
+      type: "list",
+      name: "license",
+      message: "Please choose a license for your project: ",
+      choices: [
+        "GNU AGPLv3",
+        "GNU GPLv3",
+        "GNU LGPLv3",
+        "Mozilla Public License 2.0",
+        "Apache License 2.0",
+        "MIT License",
+        "The Unlicense",
+      ],
     },
   ])
   .then((data) => console.log(data));
@@ -66,7 +81,7 @@ inquirer
  
   - contributing
   - test instructions
-  - questions to ask me?
+  - future dev
     -add github username, link to user profile
     - email address to reach you with questions
   - license
