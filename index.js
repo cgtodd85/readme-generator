@@ -1,8 +1,14 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 inquirer
   .prompt([
+    {
+      type: "input",
+      name: "name",
+      message: "Please enter your name: ",
+    },
     {
       type: "input",
       name: "title",
@@ -65,7 +71,14 @@ inquirer
       ],
     },
   ])
-  .then((data) => console.log(data));
+  .then((data) => {
+    const genReadMe = generateMarkdown(data);
+    fs.writeFile("README.md", genReadMe, (err) =>
+      err
+        ? console.log(err)
+        : console.log("Susccess! Check out your README.md!")
+    );
+  });
 
 /* 
   
