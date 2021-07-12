@@ -1,8 +1,8 @@
-# d
+# README Generator
 
 
   ## Description
-  c
+  I wanted to create a simple formula for creating a professional README doc. By running this app and entering info at the prompts you will have a professional README of your very own.
 
   ## Table of Contents
 
@@ -16,26 +16,26 @@
   - [License](#license)
 
   ## Installation
-  d
+  You can fork this repo and clone it to your machine. Run 'node index' in the file path of the parent folder and follow the prompts.
 
   ## Usage
-  c
+  Usage should be straightforward but feel free to contact me with any questions.
   
   ## Contributing
-  d
+  No other contributors
 
   ## Tests
   undefined
 
   ## Development
-  d
+  There are only a limited amount of licenses to choose from. That is one area that can be expanded in future development.
 
   ## Github Info
-  g
+  cgtodd85
 
   ## Contact
-  This project was created by c.
-  Please contact me at g with any questions.
+  This project was created by Connor Todd.
+  Please contact me at cgtodd85@gmail.com with any questions.
 
   ## License
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
