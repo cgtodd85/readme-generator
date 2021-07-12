@@ -24,7 +24,7 @@ npm inquirer
 
 ## Usage
 
-Usage should be straightforward but feel free to contact me with any questions.
+Important note: if you already have a README.md in the directory you are running this in, it will replace it. Follow the prompts and your README.md should be created.
 
 ## Contributing
 
